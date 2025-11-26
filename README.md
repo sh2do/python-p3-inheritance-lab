@@ -9,27 +9,27 @@
     from and augment methods in the parent class.
 - Accomplish complex programming tasks using knowledge from previous modules.
 
-***
+---
 
 ## Key Vocab
 
 - **Inheritance**: a tool that allows us to recycle code by creating a class
-that "inherits" the attributes and methods of a parent class.
-- **Composition**: a tool that enables you to recycle code by adding objects to
-other objects. Rather than building on a base class as in inheritance,
-composition leverages the attributes and methods of an instance of another class.
+  that "inherits" the attributes and methods of a parent class.
+- **Composition**: a tool that e22nables you to recycle code by adding objects to
+  other objects. Rather than building on a base class as in inheritance,
+  composition leverages the attributes and methods of an instance of another class.
 - **Subclass**: a class that inherits from another class. Colloquially called
-a "child" class.
+  a "child" class.
 - **Superclass**: a class that is inherited by another class. Colloquially
-called a "parent" class.
+  called a "parent" class.
 - **Child**: another name for a subclass.
 - **Parent**: another name for a superclass.
 - **`super()`**: a built-in Python function that allows us to manipulate the
-attributes and methods of a superclass from the body of its subclass.
+  attributes and methods of a superclass from the body of its subclass.
 - **Decorator**: syntax that allows us to add functionality to an object
-without modifying its structure.
+  without modifying its structure.
 
-***
+---
 
 ## Introduction
 
@@ -40,7 +40,7 @@ defining a `User` class that both students and teachers inherit from and you'll
 be writing methods within both the `Teacher` and `Student` class that are unique
 to that class.
 
-***
+---
 
 ## Instructions
 
@@ -62,18 +62,18 @@ submit your work when complete.
    knowledge strings below; modify the `Teacher` class so that it initializes
    with this list stored as an attribute, `self.knowledge`.
 
-    ```py
-    knowledge = [
-        "str is a data type in Python",
-        "programming is hard, but it's worth it",
-        "JavaScript async web request",
-        "Python function call definition",
-        "object-oriented teacher instance",
-        "programming computers hacking learning terminal",
-        "pipenv install pipenv shell",
-        "pytest -x flag to fail fast",
-    ]
-    ```
+   ```py
+   knowledge = [
+       "str is a data type in Python",
+       "programming is hard, but it's worth it",
+       "JavaScript async web request",
+       "Python function call definition",
+       "object-oriented teacher instance",
+       "programming computers hacking learning terminal",
+       "pipenv install pipenv shell",
+       "pytest -x flag to fail fast",
+   ]
+   ```
 
 3. Expand the `teach()` method in the `Teacher` class so that it returns a
    random element from `self.knowledge`. We have imported [Python's `random`
@@ -94,7 +94,7 @@ submit your work when complete.
 6. Expand the `learn()` method in the `Student` class so that in takes in a
    string and adds that string to the student's `self.knowledge` list.
 
-***
+---
 
 ## Conclusion
 
@@ -104,7 +104,7 @@ using parent classes as arguments in our class definition
 that are defined on the parent class. We also discussed how **class
 introspection** works in Python, when multiple classes define the same method.
 
-***
+---
 
 ## Resources
 
